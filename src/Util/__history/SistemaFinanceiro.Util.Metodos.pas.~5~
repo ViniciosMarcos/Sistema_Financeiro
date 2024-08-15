@@ -1,0 +1,36 @@
+unit SistemaFinanceiro.Util.Metodos;
+
+interface
+
+uses
+  FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf,
+  FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt, Datasnap.Provider,
+  Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client, Datasnap.DBClient;
+
+type
+  TMetodos = class
+  public
+    function GetIDGenerator(pGenerator: String): Integer;
+  end;
+
+implementation
+
+{ TMetodos }
+
+uses
+  SistemaFinanceiro.Model.Conexao;
+
+function TMetodos.GetIDGenerator(pGenerator: String): Integer;
+var
+  QryConsulta: TFDQuery;
+begin
+  QryConsulta := TFDQuery.Create(nil);
+  try
+
+  finally
+
+  end;
+end;
+
+end.

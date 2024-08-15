@@ -1,0 +1,20 @@
+unit SistemaFinanceiro.Util.Metodos;
+
+interface
+
+type
+  TMetodos = class
+  public
+    function GetIDGenerator(pGenerator: String): Integer;
+  end;
+
+implementation
+
+{ TMetodos }
+
+function TMetodos.GetIDGenerator(pGenerator: String): Integer;
+begin
+
+end;
+
+end.

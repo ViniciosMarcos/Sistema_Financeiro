@@ -1,0 +1,96 @@
+object dmUsuarios: TdmUsuarios
+  Height = 390
+  Width = 448
+  PixelsPerInch = 120
+  object QryUsuarios: TFDQuery
+    Connection = dmConexaoFD.Conexao
+    SQL.Strings = (
+      'SELECT *'
+      'FROM USUARIOS')
+    Left = 24
+    Top = 32
+    object QryUsuariosID: TIntegerField
+      FieldName = 'ID'
+      Origin = 'ID'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object QryUsuariosNOME: TStringField
+      DisplayLabel = 'Nome'
+      FieldName = 'NOME'
+      Origin = 'NOME'
+      Required = True
+      Size = 255
+    end
+    object QryUsuariosLOGIN: TStringField
+      DisplayLabel = 'Login'
+      FieldName = 'LOGIN'
+      Origin = 'LOGIN'
+      Required = True
+    end
+    object QryUsuariosSENHA: TStringField
+      DisplayLabel = 'Senha'
+      FieldName = 'SENHA'
+      Origin = 'SENHA'
+      Required = True
+    end
+    object QryUsuariosSTATUS: TStringField
+      DisplayLabel = 'Status'
+      FieldName = 'STATUS'
+      Origin = 'STATUS'
+      Required = True
+      FixedChar = True
+      Size = 1
+    end
+    object QryUsuariosDATA_CADASTRO: TDateField
+      DisplayLabel = 'Data Cadastro'
+      FieldName = 'DATA_CADASTRO'
+      Origin = 'DATA_CADASTRO'
+      Required = True
+    end
+  end
+  object dspUsuarios: TDataSetProvider
+    DataSet = QryUsuarios
+    Left = 120
+    Top = 32
+  end
+  object cdsUsuarios: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'dspUsuarios'
+    Left = 216
+    Top = 32
+    object cdsUsuariosID: TIntegerField
+      FieldName = 'ID'
+      Required = True
+    end
+    object cdsUsuariosNOME: TStringField
+      DisplayLabel = 'Nome'
+      FieldName = 'NOME'
+      Required = True
+      Size = 255
+    end
+    object cdsUsuariosLOGIN: TStringField
+      DisplayLabel = 'Login'
+      FieldName = 'LOGIN'
+      Required = True
+    end
+    object cdsUsuariosSENHA: TStringField
+      DisplayLabel = 'Senha'
+      FieldName = 'SENHA'
+      Required = True
+    end
+    object cdsUsuariosSTATUS: TStringField
+      DisplayLabel = 'Status'
+      FieldName = 'STATUS'
+      Required = True
+      FixedChar = True
+      Size = 1
+    end
+    object cdsUsuariosDATA_CADASTRO: TDateField
+      DisplayLabel = 'Data Cadastro'
+      FieldName = 'DATA_CADASTRO'
+      Required = True
+    end
+  end
+end

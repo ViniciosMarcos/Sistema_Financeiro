@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/05/07 21:32:15.000.000,=C:\Users\mvmar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/19 16:14:04.000.733,=C:\Users\mvmar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/25 16:26:25.000.734,=C:\Users\mvmar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/25 16:26:57.000.868,C:\Users\mvmar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\frmPrincipal.dfm</Transaction>
+    <Transaction>2024/07/25 16:26:57.000.868,C:\Users\mvmar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\frmPrincipal.pas</Transaction>
+    <Transaction>2024/07/25 16:27:05.000.171,C:\Users\mvmar\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\SistemaFinanceiro.dproj</Transaction>
+    <Transaction>2024/07/25 16:31:00.000.409,C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\frmPrincipal.dfm=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\View\SistemaFinanceiro.View.Principal.dfm</Transaction>
+    <Transaction>2024/07/25 16:31:00.000.409,C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\frmPrincipal.pas=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\View\SistemaFinanceiro.View.Principal.pas</Transaction>
+    <Transaction>2024/07/26 08:52:13.000.947,=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/07/26 08:52:25.000.379,C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\View\SistemaFinanceiro.View.CadastroDefault.dfm=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.dfm</Transaction>
+    <Transaction>2024/07/26 08:52:25.000.379,C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\View\SistemaFinanceiro.View.CadastroDefault.pas=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/08/02 16:08:06.000.726,=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/08/02 16:08:21.000.858,C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.dfm=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\View\SistemaFinanceiro.View.Splash.dfm</Transaction>
+    <Transaction>2024/08/02 16:08:21.000.858,C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.pas=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\View\SistemaFinanceiro.View.Splash.pas</Transaction>
+    <Transaction>2024/08/12 18:19:55.000.042,=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/08/12 18:20:20.000.600,C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.dfm=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\Model\SistemaFinanceiro.Model.Conexa.dfm</Transaction>
+    <Transaction>2024/08/12 18:20:20.000.600,C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.pas=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\Model\SistemaFinanceiro.Model.Conexa.pas</Transaction>
+    <Transaction>2024/08/12 18:20:31.000.205,C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\Model\SistemaFinanceiro.Model.Conexa.pas=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\Model\SistemaFinanceiro.Model.Conexao.pas</Transaction>
+    <Transaction>2024/08/12 18:20:31.000.205,C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\Model\SistemaFinanceiro.Model.Conexa.dfm=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\Model\SistemaFinanceiro.Model.Conexao.dfm</Transaction>
+    <Transaction>2024/08/12 18:23:40.000.748,=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/08/12 18:23:54.000.070,=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/08/12 18:24:34.000.287,C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.dfm=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\View\SistemaFinanceiro.View.Usuarios.dfm</Transaction>
+    <Transaction>2024/08/12 18:24:34.000.287,C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.pas=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\View\SistemaFinanceiro.View.Usuarios.pas</Transaction>
+    <Transaction>2024/08/13 17:32:06.201,=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/08/13 17:32:23.355,C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\Model\SistemaFinanceiro.Model.Usuarios.dfm=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.dfm</Transaction>
+    <Transaction>2024/08/13 17:32:23.355,C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\Model\SistemaFinanceiro.Model.Usuarios.pas=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/08/13 18:19:12.352,=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/08/13 18:19:38.675,C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\src\Util\SistemaFinanceiro.Util.Metodos.pas=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFinanceiro\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

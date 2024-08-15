@@ -1,0 +1,22 @@
+object dmConexaoFD: TdmConexaoFD
+  Height = 750
+  Width = 1000
+  PixelsPerInch = 120
+  object Conexao: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\mvmar\OneDrive\Documentos\Projetos\SistemaFina' +
+        'nceiro\database\SISTEMAFINANCEIRO.FDB'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'DriverID=FB')
+    LoginPrompt = False
+    Left = 64
+    Top = 40
+  end
+  object Transacao: TFDTransaction
+    Connection = Conexao
+    Left = 160
+    Top = 40
+  end
+end
