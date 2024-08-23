@@ -126,6 +126,11 @@
             <Form>frmUsuarios</Form>
         </DCCReference>
         <DCCReference Include="src\Util\SistemaFinanceiro.Util.Metodos.pas"/>
+        <DCCReference Include="src\View\SistemaFinanceiro.View.Login.pas">
+            <Form>frmLogin</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="src\Model\SistemaFinanceiro.Model.Login.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

@@ -1,0 +1,32 @@
+unit SistemaFinanceiro.Model.Login;
+
+interface
+
+type
+  TLogin = class
+  private
+    Fsenha: String;
+    Fusuario: String;
+    procedure Setsenha(const Value: String);
+    procedure Setusuario(const Value: String);
+
+  public
+    property usuario: String read Fusuario write Setusuario;
+    property senha: String read Fsenha write Setsenha;
+  end;
+
+implementation
+
+{ TLogin }
+
+procedure TLogin.Setsenha(const Value: String);
+begin
+  Fsenha := Value;
+end;
+
+procedure TLogin.Setusuario(const Value: String);
+begin
+  Fusuario := Value;
+end;
+
+end.

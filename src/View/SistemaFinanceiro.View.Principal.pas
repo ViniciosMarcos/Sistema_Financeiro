@@ -29,7 +29,9 @@ implementation
 {$R *.dfm}
 
 uses
-  SistemaFinanceiro.View.Splash, SistemaFinanceiro.View.Usuarios;
+  SistemaFinanceiro.View.Splash,
+  SistemaFinanceiro.View.Usuarios,
+  SistemaFinanceiro.View.Login;
 
 procedure TfrmPrincipal.FormCreate(Sender: TObject);
 begin
@@ -40,6 +42,16 @@ begin
     frmSplash.ShowModal;
   finally
     FreeAndNil(frmSplash);
+  end;
+
+  if not Assigned(frmLogin) then
+    frmLogin := TfrmLogin.Create(nil);
+  try
+    frmLogin.ShowModal;
+    if (frmLogin.ModalResult <> mrOk) then
+      Application.Terminate;
+  finally
+    FreeAndNil(frmLogin);
   end;
 end;
 

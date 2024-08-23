@@ -1,0 +1,49 @@
+unit SistemaFinanceiro.View.Login;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Imaging.jpeg,
+  Vcl.StdCtrls, Vcl.Imaging.pngimage, System.ImageList, Vcl.ImgList;
+
+type
+  TfrmLogin = class(TForm)
+    Image1: TImage;
+    ImageList1: TImageList;
+    Panel1: TPanel;
+    EditLogin: TEdit;
+    lblUsuario: TLabel;
+    EditSenha: TEdit;
+    lblSenha: TLabel;
+    BtnLogin: TButton;
+    BtnCancelar: TButton;
+    Panel2: TPanel;
+    Image2: TImage;
+    lblLogin: TLabel;
+    procedure BtnLoginClick(Sender: TObject);
+    procedure BtnCancelarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmLogin: TfrmLogin;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmLogin.BtnCancelarClick(Sender: TObject);
+begin
+  ModalResult := mrNone;
+end;
+
+procedure TfrmLogin.BtnLoginClick(Sender: TObject);
+begin
+  ModalResult := mrOk;
+end;
+
+end.
